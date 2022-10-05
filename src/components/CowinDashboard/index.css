@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #161625;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+}
+.top-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.website-logo {
+  height: 50px;
+}
+.top-container-heading {
+  font-family: 'Roboto';
+  color: #a3df9f;
+}
+.heading {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+}
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view {
+  height: 250px;
+  width: 350px;
+}
+.failure-view-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.dashboard-container {
+  width: 80%;
+}
